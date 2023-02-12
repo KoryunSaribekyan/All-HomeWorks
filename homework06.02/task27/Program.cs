@@ -7,10 +7,8 @@
 Console.Clear();
 // Console.Write("Введите число: ");
 // int n = Convert.ToInt32(Console.ReadLine());
-    
 //     int Dlina = Convert.ToString(n).Length;
 //     int result = 0;
-
 //     for (int i = 0; i < Dlina; i++)
 //     {
 //       result = result + (n % 10);
@@ -18,7 +16,6 @@ Console.Clear();
 //     }
 
 // Console.WriteLine(result);
-
 Console.Write("Введите число: ");
 string? stroka = Console.ReadLine();
 int summa = 0;
@@ -30,7 +27,3 @@ summa = summa + Convert.ToInt32(stroka[i].ToString());
 }
 
 Console.WriteLine(summa);
-
-
-
-

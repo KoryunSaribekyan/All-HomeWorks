@@ -14,11 +14,3 @@ for(int i = 0; i<B; i++)
     result = result*A;
 }
 Console.Write(result/A);
-
-
-
-
-
-
-
-
