@@ -27,7 +27,7 @@ void PrintMatrix(int[,] matrix)
 
 void IskomyElement(int[,] matrix)
 {
-    Console.WriteLine("Введите искомый элемент: ");
+    Console.WriteLine("Введите позицию искомого элемента: ");
     int a = Convert.ToInt32(Console.ReadLine());
     for (int i = 0; i < matrix.GetLength(0) + 1; i++)
     {
